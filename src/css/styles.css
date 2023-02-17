@@ -1,0 +1,41 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/*Navbar*/
+.Navbar {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  height: 70px;
+}
+
+.my-nav-dropdown .dropdown-menu {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.text-menu {
+  color: #fff !important;
+}
+
+.my-nav-dropdown .dropdown-toggle {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+
+.my-nav-dropdown .dropdown-toggle:hover {
+  color: #fff !important; /* définir la couleur du texte en blanc au survol de la souris */
+}
+
+
+ li > .my-dropdown-menu   {
+  background-color: #000 !important;
+  color: #fff !important;
+ /* définir la couleur de fond en noir */
+}
+
+.my-navbar-toggle span {
+  background-color: #fff; /* définir la couleur de l'icône en blanc */
+  border-color: #fff;
+}
