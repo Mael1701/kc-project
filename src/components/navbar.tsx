@@ -2,14 +2,24 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useMediaQuery } from 'react-responsive';
+
 
 function NavBar() {
+  const image = new Image();
+  image.src = process.env.PUBLIC_URL + './images/Karmine_Corp_logo.svg';
+
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+
   return (
-    <Navbar expand="lg" className='Navbar text-white'>
+    <Navbar expand="lg" className={`Navbar text-white ${isMobile ? 'gradient-background' : '90deg, #FFD43B 0%, #FFC13A 100%'}`}>
       <Container>
-        <Navbar.Brand href="#home" className="nav-link text-white">KarmineCorp</Navbar.Brand>
+            <Navbar.Brand href="#home" className="nav-link">
+            <img src={image.src} alt="KC" className='Logo' />
+            </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="my-navbar-toggle"/>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='my-navbar-collapse'>
+          <div className="container1">
         <Nav className="me-auto d-flex justify-content-between w-50 align-items-center">
               <Nav.Link href="#home" className="nav-link text-white">Home</Nav.Link>
               <Nav.Link href="#link" className="nav-link text-white">Trix City</Nav.Link>
@@ -25,9 +35,10 @@ function NavBar() {
                 Staff
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link" className="nav-link text-white">Boutique</Nav.Link>
+            <Nav.Link href="https://karmineshop.com/" target="_blank" className="nav-link text-white">Boutique</Nav.Link>
             <Nav.Link href="#link" className="nav-link text-white">À propos</Nav.Link>
           </Nav>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

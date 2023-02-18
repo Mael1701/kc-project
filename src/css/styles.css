@@ -3,6 +3,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@media (min-width: 768px) {
+  .navbar-collapse {
+    display: none !important;
+    background: transparent !important;
+  }
+}
+
+
 
 /*Navbar*/
 .Navbar {
@@ -10,8 +18,27 @@
   height: 70px;
 }
 
+.Logo {
+  height: 30px;
+  width: 30px;
+}
+
+.container1 {
+ padding-left: 50px;
+ width: 100%;
+}
+
+.nav-item {
+  padding-left: 10px;
+}
+
+.navbar-collapse {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
 .my-nav-dropdown .dropdown-menu {
   background: linear-gradient(to right, #00c6ff, #0072ff);
+  text-decoration: none;
 }
 
 .text-menu {
@@ -20,7 +47,6 @@
 
 .my-nav-dropdown .dropdown-toggle {
   color: #fff;
-  text-decoration-color: #fff;
 }
 
 
@@ -32,10 +58,9 @@
  li > .my-dropdown-menu   {
   background-color: #000 !important;
   color: #fff !important;
- /* définir la couleur de fond en noir */
 }
 
 .my-navbar-toggle span {
-  background-color: #fff; /* définir la couleur de l'icône en blanc */
+  ackground: linear-gradient(to right, #00c6ff, #0072ff);
   border-color: #fff;
 }
