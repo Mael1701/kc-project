@@ -3,14 +3,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@media (min-width: 768px) {
-  .navbar-collapse {
-    display: none !important;
-    background: transparent !important;
-  }
-}
-
-
 
 /*Navbar*/
 .Navbar {
@@ -61,6 +53,13 @@
 }
 
 .my-navbar-toggle span {
-  ackground: linear-gradient(to right, #00c6ff, #0072ff);
+
   border-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    display: none !important;
+    background: transparent !important;
+  }
 }
