@@ -1,0 +1,25 @@
+.main-container {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+p {
+  display: block;
+}
+
+.onekc {
+  width: 500px;
+  height: 400px;
+  justify-content: flex-end;
+}

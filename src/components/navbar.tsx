@@ -36,7 +36,7 @@ function NavBar() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="https://karmineshop.com/" target="_blank" className="nav-link text-white">Boutique</Nav.Link>
-            <Nav.Link href="#link" className="nav-link text-white">À propos</Nav.Link>
+            <Nav.Link href="#link" className="nav-link text-white">Matchs</Nav.Link>
           </Nav>
           </div>
         </Navbar.Collapse>

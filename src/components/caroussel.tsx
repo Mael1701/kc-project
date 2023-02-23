@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function UncontrolledExample() {
   const image1 = new Image();
-  image1.src = process.env.PUBLIC_URL + './images/kcvalorant.jpeg';
+  image1.src = process.env.PUBLIC_URL + './images/kcvalorant1.jpg';
 
   const image2 = new Image();
   image2.src = process.env.PUBLIC_URL + './images/kclol1.jpg';
@@ -18,7 +18,7 @@ function UncontrolledExample() {
         <img
           className="d-block custom-height"
           src={image2.src}
-          alt="Kc LoL;"
+          alt="KC LoL;"
         />
       </Carousel.Item>
 
@@ -26,7 +26,7 @@ function UncontrolledExample() {
         <img
           className="d-block custom-height"
           src={image1.src}
-          alt="Second slide"
+          alt="KC Valorant"
         />
       </Carousel.Item>
 
@@ -34,7 +34,7 @@ function UncontrolledExample() {
         <img
           className="d-block custom-height"
           src={image3.src}
-          alt="Third slide"
+          alt="KC Valorant féminin"
         />
       </Carousel.Item>
     </Carousel>
