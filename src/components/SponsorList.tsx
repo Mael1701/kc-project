@@ -8,8 +8,8 @@ const SponsorList = () => {
       <h1>Nos Sponsors</h1>
         <div className="container">
           <p>
-           Sans des alliées solides, nous ne pourront jamais réussir dans nôtre quête ultime.
-           Merci à eux de nous faire confiance pour rélisé l'impossible!
+           Pour réussir dans notre quête ultime, Il nous faut des alliés solides !
+           Merci à eux de nous faire confiance pour réaliser l'impossible !
           </p>
         </div>
     </div>

@@ -11,14 +11,14 @@ function MainContainer() {
         <div className="container">
           <p>
            La Karmine Corp (surnommée KCorp) est une structure française centrée autour d'une équipe e-sport
-           basée à Paris. Elle est formée le 30 mars 2020 sous le nom de Kameto Corp par le duo de streamers
+           basée à Paris. Elle est fondée le 30 mars 2020 sous le nom de Kameto Corp par le duo de streamers
            francophones Kameto et Kotei. Le 16 novembre 2020, l'entrepreneur et rappeur français Prime rejoint la direction
-           de la structure, et l'équipe prend sa dénomination actuelle. Une société par actions simplifiée, présidée par
+           de la structure et l'équipe prend sa dénomination actuelle. Une société par actions simplifiées, présidée par
            Kameto et dirigée par Prime, est créée quelques mois plus tard.<br/><br/>
-           L'équipe League of Legends nous a value le surnom de "Blue Wall" avec notre domination sur l'Europe au niveau
-           des ERLS pendant quasiment 2 ans de suite. Maintenant on nous connaît dans le monde entier, et nous representons nos couleurs sur 6 jeux différents
-           ( League of legends, Valorant, Rocket League, Teamfight Tactic, TrackMania et Super Smash Bros Ultimate). Nous avons
-           pour ambition de de devenir Champion du Monde sur chacun de ces jeux.
+           L'équipe League of Legends nous a value le surnom de Blue Wall avec notre domination sur l'Europe au niveau
+           des ERLS pendant quasiment 2 ans de suite. Maintenant on nous connaît dans le monde entier et nous representons nos couleurs sur 6 jeux différents
+           (League of legends, Valorant, Rocket League, Teamfight Tactic, TrackMania et Super Smash Bros Ultimate). Nous avons
+           pour ambition de devenir Champions du Monde sur chacun de ces jeux.
           </p>
               <img
                 className="d-block onekc"
