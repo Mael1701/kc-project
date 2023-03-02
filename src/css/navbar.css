@@ -7,7 +7,12 @@
 /*Navbar*/
 .Navbar {
   background: linear-gradient(to right, #00c6ff, #0072ff);
-  height: 70px;
+  height: auto;
+  font-family: 'Komika Jam', sans-serif;
+}
+
+.text-menu:hover {
+  color: black !important;
 }
 
 .Logo {
@@ -33,27 +38,31 @@
   text-decoration: none;
 }
 
+.my-nav-dropdown:hover{
+  color: #000 !important;
+}
+
 .text-menu {
-  color: #fff !important;
+  color:#fff !important;
 }
 
 .my-nav-dropdown .dropdown-toggle {
   color: #fff;
 }
 
-
-.my-nav-dropdown .dropdown-toggle:hover {
-  color: #fff !important; /* définir la couleur du texte en blanc au survol de la souris */
-}
-
-
- li > .my-dropdown-menu   {
-  background-color: #000 !important;
+.nav-link{
   color: #fff !important;
 }
 
-.my-navbar-toggle span {
+.nav-link:hover {
+  color: #000 !important;
+}
 
+ li > .my-dropdown-menu   {
+  background-color: #000 !important;
+}
+
+.my-navbar-toggle span {
   border-color: #fff;
 }
 

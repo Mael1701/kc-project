@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-function UncontrolledExample() {
+function Carouselnav() {
   const image1 = new Image();
   image1.src = process.env.PUBLIC_URL + './images/kcvalorant1.jpg';
 
@@ -42,4 +42,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Carouselnav;

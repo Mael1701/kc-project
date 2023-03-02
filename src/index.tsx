@@ -4,6 +4,7 @@ import './index.css';
 import "./css/navbar.css"
 import "./css/carousel.css"
 import "./css/main_container.css"
+import "./css/SponsorList.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';

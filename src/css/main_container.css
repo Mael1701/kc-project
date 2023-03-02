@@ -1,11 +1,12 @@
 .main-container {
   background: linear-gradient(to right, #00c6ff, #0072ff);
-  height: 530px;
+  height: auto;
 }
 
 .container {
   display: flex;
   width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
   padding-top: 30px;
   color: white;
   padding-bottom: 30px;
+  font-family: 'Komika Jam', sans-serif;
 }
 
 p {
@@ -20,11 +22,17 @@ p {
   color: white;
   text-align: justify;
   padding-right: 20px;
+  font-family: 'Komika Jam', sans-serif;
 }
 
 .onekc {
-  width: 500px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   justify-content: flex-end;
   border-radius: 10px;
+}
+
+@font-face {
+  font-family: 'Komika Jam';
+  src: url('../../public/fonts/komika_hands/KOMIKAH_.ttf')  format('truetype');
 }

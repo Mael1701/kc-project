@@ -21,8 +21,8 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav" className='my-navbar-collapse'>
           <div className="container1">
         <Nav className="me-auto d-flex justify-content-between w-50 align-items-center">
-              <Nav.Link href="#home" className="nav-link text-white">Home</Nav.Link>
-              <Nav.Link href="#link" className="nav-link text-white">Trix City</Nav.Link>
+              <Nav.Link href="#home" className="nav-link">Home</Nav.Link>
+              <Nav.Link href="#link" className="nav-link">Trix City</Nav.Link>
           <NavDropdown title="Teams" id="basic-nav-dropdown" className="my-nav-dropdown">
               <NavDropdown.Item href="#action/3.1" className='text-menu'>League of Legends</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2" className='text-menu'>Valorant</NavDropdown.Item>
@@ -35,8 +35,8 @@ function NavBar() {
                 Staff
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="https://karmineshop.com/" target="_blank" className="nav-link text-white">Boutique</Nav.Link>
-            <Nav.Link href="#link" className="nav-link text-white">Matchs</Nav.Link>
+            <Nav.Link href="https://karmineshop.com/" target="_blank" className="nav-link">Boutique</Nav.Link>
+            <Nav.Link href="#link" className="nav-link">Matchs</Nav.Link>
           </Nav>
           </div>
         </Navbar.Collapse>
